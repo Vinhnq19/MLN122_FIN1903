@@ -12,5 +12,8 @@
   "license": "MIT",
   "devDependencies": {
     "esbuild": "0.28.0"
+  },
+  "dependencies": {
+    "firebase": "^12.15.0"
   }
 }

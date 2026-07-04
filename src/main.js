@@ -1,11 +1,16 @@
 import Alpine from 'https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/module.esm.js';
 import { createGameStore } from './state/store.js';
 import { SCENARIOS } from './data/scenarios.js';
+import { initFirebase } from './firebase.js';
 
 window.Alpine = Alpine;
 
 // Đăng ký global store với tên 'game'
-Alpine.store('game', createGameStore());
+const gameStore = createGameStore();
+Alpine.store('game', gameStore);
+
+// Khởi tạo Firebase và kết nối với store (phải truyền proxy của Alpine để có reactivity)
+initFirebase(Alpine.store('game'));
 
 // Đăng ký dữ liệu kịch bản để gọi trực tiếp ngoài HTML
 Alpine.data('gameData', () => ({
@@ -13,7 +18,8 @@ Alpine.data('gameData', () => ({
   isAnimating: false,
   swipeDirection: null,
   get currentScenario() {
-    const step = Alpine.store('game').currentStep;
+    const isReview = this.$store.game.reviewMode;
+    const step = isReview ? this.$store.game.reviewStep : this.$store.game.currentStep;
     return this.scenarios[step] || null;
   },
   handleChoice(option, index) {
@@ -25,7 +31,7 @@ Alpine.data('gameData', () => ({
     
     setTimeout(() => {
       // Cập nhật dữ liệu sau khi thẻ bài bay ra (200ms)
-      Alpine.store('game').makeChoice(option);
+      Alpine.store('game').makeChoice(option, index, this.currentScenario.title);
       
       // Reset trạng thái swipe để khi popup đóng thẻ bài mới sẽ sẵn sàng bay vào
       this.swipeDirection = null;

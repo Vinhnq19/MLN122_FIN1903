@@ -50,114 +50,268 @@ Thiết kế Game: "Trùm Năng Lượng / Quản Lý Quốc Gia"
 2. **Sự hài lòng của dân (Dân túy)**  
 3. **An ninh hệ thống (Độ ổn định cốt lõi**
 
-#### **Năm 1: Vòng luẩn quẩn của "Giá" & "Cung"**
+Một kịch bản 15 câu (3 tình huống/năm $\\times$ 5 năm) với **3 lựa chọn mỗi câu** sẽ tạo ra chiều sâu chiến thuật rất lớn. Để đáp ứng yêu cầu của bạn và thầy giáo, kịch bản dưới đây đã được tinh chỉnh: hạ thấp mức phạt để tránh chết oan ở những lượt đầu, liên kết logic giữa các sự kiện, dùng từ ngữ đại chúng dễ hiểu, và tích hợp tính năng **"Nhật ký Biện hộ"** ở cuối game để các nhóm thảo luận trước lớp.  
+Mỗi nhóm chỉ có **1 lượt chơi duy nhất**. Hãy để họ tự nếm trải sự nghiệt ngã của việc điều hành vĩ mô.
 
-*Bối cảnh: Áp lực tài chính và biến đổi khí hậu khắc nghiệt ngay đầu nhiệm kỳ.*
+# **KỊCH BẢN GAME ĐỔI MỚI: CÁN CÂN VĨ MÔ**
 
-* Tình huống 1.1: Đêm hè mất điện. Miền Bắc (bao gồm cả thủ đô) trải qua đợt nắng nóng cực đoan. Nước hồ thủy điện cạn trơ đáy, nguồn cung thiếu hụt trầm trọng, đe dọa sinh hoạt và các khu công nghiệp.  
-  * *A (Cắt điện luân phiên sinh hoạt, giữ điện cho sản xuất):* Ưu tiên nhà máy để giữ cam kết FDI, để dân chịu nóng. (Ngân sách \+10, Hài lòng \-30, Hệ thống \+20).
+* **Chỉ số ban đầu:** Ngân sách: **50%** | Lòng dân: **50%** | An ninh Hệ thống: **50%**  
+* **Quy tắc:** Bất kỳ chỉ số nào chạm **0%** \-\> Thua ngay lập tức (Game Over).
 
-→ *Giải thích:* **Giữ chân dòng vốn FDI.** Ưu tiên điện cho các khu công nghiệp giúp bảo vệ chuỗi cung ứng toàn cầu và uy tín kinh tế của quốc gia, tránh bị phạt trong hợp đồng thương mại quốc tế (Ngân sách \+10, Hệ thống \+20). Tuy nhiên, việc để người dân chịu nóng trong điều kiện thời tiết cực đoan sẽ làm xói mòn nghiêm trọng niềm tin của công chúng (Hài lòng \-30). 
+## **NĂM 1: KHỦNG HOẢNG NẮNG NÓNG & BÀI TOÁN TÀI CHÍNH**
 
-* *B (Mua điện khẩn cấp từ láng giềng với giá cắt cổ):* Chấp nhận thâm hụt nặng để đảm bảo sinh hoạt cho người dân thành thị. (Ngân sách \-30, Hài lòng \+20, Hệ thống \+10).
+### **Tình huống 1.1: Đêm hè mất điện**
 
-→ *Giải thích:* **Cái giá của sự bình ổn.** Để giữ lòng dân và bảo đảm sinh hoạt, bạn chấp nhận mua điện từ nước láng giềng với giá cao gấp nhiều lần giá bán lẻ quy định (Hài lòng \+20). Khoản chênh lệch khổng lồ này đè nặng lên vai doanh nghiệp Nhà nước, đẩy tập đoàn vào nguy cơ mất cân đối tài chính (Ngân sách \-30). 
+Miền Bắc bước vào đợt nắng nóng kỷ lục, các hồ thủy điện cạn trơ đáy. Nguồn cung thiếu hụt nghiêm trọng, đe dọa trực tiếp đến sinh hoạt của người dân và dây chuyền sản xuất của các nhà máy lớn.
 
-* Tình huống 1.2: Báo cáo tài chính cuối năm đỏ lửa. Sau khi gánh lỗ từ việc mua điện đắt bán rẻ, tập đoàn đang âm vốn chủ sở hữu nghiêm trọng.  
-  * *A (Xin điều chỉnh biểu giá bán lẻ):* Tăng giá điện để bù lỗ theo cơ chế thị trường, bất chấp lạm phát tăng. (Ngân sách \+30, Hài lòng \-40, Hệ thống 0).  
-    → *Giải thích:* **Cơ chế thị trường sòng phẳng.** Tăng giá giúp tập đoàn thu hồi vốn, có dòng tiền để tái đầu tư và giảm áp lực lên ngân sách quốc gia (Ngân sách \+30). Ngược lại, giá điện tăng đột ngột sẽ kích hoạt làn sóng lạm phát, tăng chi phí sinh hoạt và sản xuất, khiến người dân phản đối kịch liệt (Hài lòng \-40).   
-  * *B (Giữ nguyên giá, xin Chính phủ khoanh nợ):* Để Nhà nước dùng ngân sách cứu trợ, giữ ổn định kinh tế vĩ mô. (Ngân sách \-10, Hài lòng \+10, Hệ thống \-10 do thiếu vốn bảo trì).  
-    → *Giải thích:* **Trì hoãn quả bom nợ.** Giữ giá giúp ổn định kinh tế vĩ mô và an sinh xã hội trong ngắn hạn (Hài lòng \+10). Nhưng không tăng giá nghĩa là Nhà nước phải lấy tiền thuế của dân để bù lỗ (Ngân sách \-10). Việc thiếu vốn kéo dài khiến hạ tầng không được bảo trì, tích tụ rủi ro sập hệ thống về sau (Hệ thống \-10). 
+* **Lựa chọn A (Ưu tiên kinh tế):** Cắt điện luân phiên vùng sinh hoạt của người dân, ưu tiên cấp điện liên tục cho các khu công nghiệp lớn để giữ chân dòng vốn FDI.  
+  * *Chỉ số:* Ngân sách \+5 | Lòng dân \-15 | Hệ thống \+10  
+* **Lựa chọn B (Ưu tiên an sinh):** Mua điện khẩn cấp từ nước láng giềng với giá cao gấp 3 lần bình thường để đảm bảo người dân không phải chịu nóng.  
+  * *Chỉ số:* Ngân sách \-20 | Lòng dân \+15 | Hệ thống \+5  
+* **Lựa chọn C (Kêu gọi tiết kiệm):** Không cắt điện, không mua thêm, phát động phong trào toàn dân tắt bớt thiết bị điện, các cơ quan giảm 50% đèn chiếu sáng.  
+  * *Chỉ số:* Ngân sách 0 | Lòng dân \-5 | Hệ thống \+5
 
-#### **Năm 2: Làn sóng "Năng lượng tái tạo" & Nghịch lý hạ tầng**
+### **Tình huống 1.2: Quả bom nợ từ năm cũ**
 
-*Bối cảnh: Sự bùng nổ của điện mặt trời/điện gió ở miền Trung/Nam, nhưng lưới truyền tải không theo kịp.*
+*Hệ quả từ quyết định xử lý đợt nắng nóng trước:* Tập đoàn điện nước quốc gia báo cáo khoản lỗ khổng lồ, âm vốn nghiêm trọng, không còn tiền để vận hành bình thường.
 
-* Tình huống 2.1: Quá tải lưới điện. Các nhà đầu tư tư nhân ồ ạt xây dựng điện mặt trời, khiến đường dây 500 kV quá tải.  
-  * *A (Cắt giảm công suất \- Curtailment):* Ép tư nhân ngừng phát điện lên lưới để bảo vệ an toàn hệ thống, khiến họ biểu tình vì phá sản. (Ngân sách 0, Hài lòng \-20, Hệ thống \+30).  
-    → *Giải thích:* **Kỹ trị an toàn hệ thống.** Lưới truyền tải trục dọc (đường dây 500 kV) có giới hạn vật lý. Ép các nhà máy tư nhân ngắt điện là biện pháp kỹ thuật bắt buộc để tránh cháy nổ toàn hệ thống (Hệ thống \+30). Nhưng điều này khiến các nhà đầu tư tư nhân phá sản vì không bán được hàng, phá vỡ niềm tin vào chính sách (Hài lòng \-20).   
-  * *B (Vay vốn ồ ạt để nâng cấp đường dây):* Dùng đòn bẩy tài chính cực lớn để mở rộng lưới tải điện ngay lập tức. (Ngân sách \-30, Hài lòng \+10, Hệ thống \+20).  
-    → *Giải thích:* **Đầu tư công đi trước một bước.** Nâng cấp hạ tầng là giải pháp gốc rễ để hấp thụ nguồn năng lượng xanh từ tư nhân (Hệ thống \+20). Tuy nhiên, hạ tầng truyền tải đòi hỏi nguồn vốn khổng lồ và thời gian xây dựng dài; việc vay nợ ồ ạt khiến chỉ số an toàn tài chính quốc gia rơi vào vùng nguy hiểm (Ngân sách \-30).   
-* Tình huống 2.2: Cơ chế mua bán điện trực tiếp (DPPA). Các tập đoàn FDI lớn yêu cầu được mua điện sạch trực tiếp từ tư nhân, không qua độc quyền của EVN.  
-  * *A (Mở cửa thị trường):* Chấp thuận. Mất đi khách hàng "sộp" nhất để bù chéo giá điện, nhưng thu hút được vốn FDI chất lượng cao. (Ngân sách \-20, Hài lòng \+20, Hệ thống 0).  
-    **→ Giải thích: Xóa bỏ thế độc quyền mua.** Cho phép các nhà máy tư nhân bán điện trực tiếp cho tập đoàn lớn (FDI) tạo ra một thị trường cạnh tranh minh bạch, thu hút vốn ngoại (Hài lòng \+20). Thế nhưng, khi các khách hàng lớn chuyển sang mua của tư nhân, Nhà nước mất đi nguồn thu béo bở nhất để thực hiện chính sách "bù chéo" giá điện cho vùng nông thôn, biên giới (Ngân sách \-20).   
-  * *B (Bảo vệ thế độc quyền):* Từ chối, bắt buộc mua bán qua một mối để giữ nguồn thu giá rẻ cho nông thôn. (Ngân sách \+20, Hài lòng \-20, Hệ thống 0).  
-    → *Giải thích:* **Độc quyền vì mục tiêu công bằng.** Buộc mọi giao dịch phải qua Nhà nước giúp quản lý toàn diện dòng tiền và điều tiết giá ổn định để hỗ trợ người nghèo (Ngân sách \+20). Ngược lại, việc duy trì cơ chế xin-cho này bị các tổ chức quốc tế chỉ trích là thiếu minh bạch, kìm hãm sự phát triển của thị trường điện cạnh tranh (Hài lòng \-20). 
+* **Lựa chọn A (Cơ chế thị trường):** Tăng giá bán lẻ điện ngay lập tức thêm 15% để tập đoàn tự cứu lấy mình và có dòng tiền tái đầu tư.  
+  * *Chỉ số:* Ngân sách \+20 | Lòng dân \-25 | Hệ thống 0  
+* **Lựa chọn B (Nhà nước bao cấp):** Giữ nguyên giá điện để ổn định đời sống, xin Chính phủ dùng tiền thuế của dân để khoanh nợ và cấp bù lỗ.  
+  * *Chỉ số:* Ngân sách \-15 | Lòng dân \+10 | Hệ thống \-5  
+* **Lựa chọn C (Bù chéo xã hội):** Chỉ tăng giá điện đối với các hộ dùng nhiều (biệt thự, kinh doanh lớn), giữ nguyên giá cho người nghèo và nông thôn.  
+  * *Chỉ số:* Ngân sách \+10 | Lòng dân \-10 | Hệ thống 0
 
-#### **Năm 3: An ninh Nguồn nước & Thủy điện**
+### **Tình huống 1.3: Sự cố trạm biến áp trung tâm**
 
-*Bối cảnh: Hiện tượng El Niño kéo dài, hạn hán nghiêm trọng.*
+*Hệ quả từ bài toán tài chính:* Do thiếu hụt ngân sách bảo trì từ giai đoạn trước, một trạm biến áp trục chính gặp sự cố kỹ thuật lớn, nguy cơ cháy nổ dây chuyền.
 
-* Tình huống 3.1: Xung đột lợi ích thủy điện \- nông nghiệp. Các hồ chứa phải xả nước cứu lúa vùng hạ lưu đang chết khô, nhưng nếu xả sẽ không còn áp lực nước để phát điện.  
-  * *A (Giữ nước phát điện):* Ưu tiên an ninh năng lượng quốc gia, để mặc hàng ngàn héc-ta nông nghiệp mất mùa. (Ngân sách \+10, Hài lòng \-40, Hệ thống \+20).  
-    → *Giải thích:* **Ưu tiên huyết mạch công nghiệp.** Giữ nước giúp các turbine chạy hết công suất, bảo đảm nguồn điện cho các đô thị và nhà máy (Ngân sách \+10, Hệ thống \+20). Đổi lại, hàng ngàn héc-ta lúa hạ du chết khát, sinh kế của hàng vạn nông dân bị phá hủy hoàn toàn (Hài lòng \-40).   
-  * *B (Xả nước cứu nông dân):* Chịu thiếu hụt điện năng, tốn tiền chạy nhiệt điện dầu giá cao để bù đắp. (Ngân sách \-30, Hài lòng \+30, Hệ thống \-20).  
-    → *Giải thích:* **Đặt lòng dân lên trên hết.** Xả nước giúp cứu vãn mùa màng và bảo đảm an ninh lương thực cho nông dân (Hài lòng \+30). Tuy nhiên, khi hồ cạn nước, bạn buộc phải huy động các nguồn nhiệt điện dầu và than với chi phí cực kỳ đắt đỏ để bù đắp lượng điện thiếu hụt (Ngân sách \-30, Hệ thống \-20).   
-* Tình huống 3.2: Xã hội hóa cung cấp nước sạch. Nguồn ngân sách cạn kiệt, hạ tầng ống nước đô thị xuống cấp, rò rỉ.  
-  * *A (Bán cổ phần mảng nước sạch cho tư nhân):* Tư nhân hóa mạng lưới cấp nước đô thị, chất lượng nước tăng nhưng giá nước x3. (Ngân sách \+30, Hài lòng \-30, Hệ thống \+20).  
-    → *Giải thích:* **Bàn tay vô hình của thị trường.** Tư nhân đổ vốn lớn nâng cấp công nghệ, giảm tỷ lệ rò rỉ và nâng cao tiêu chuẩn nước sạch đô thị nhanh chóng (Ngân sách \+30, Hệ thống \+20). Nhưng vì động lực tối đa hóa lợi nhuận, tư nhân sẽ tăng giá nước lên gấp nhiều lần, khiến nước sạch trở thành mặt hàng xa xỉ với người nghèo (Hài lòng \-30).   
-  * *B (Tiếp tục Nhà nước quản lý nhưng cắt giảm chi phí):* Chấp nhận tỷ lệ thất thoát nước sạch cao và thỉnh thoảng vỡ ống để giữ giá nước rẻ. (Ngân sách \+10, Hài lòng \+10, Hệ thống \-30).  
-    → *Giải thích:* **Sản phẩm công ích cốt lõi.** Nhà nước chấp nhận bù lỗ để giữ giá nước rẻ, bảo đảm mọi người dân đều tiếp cận được nhu cầu sinh hoạt cơ bản (Hài lòng \+10). Đổi lại, vì thiếu ngân sách bảo trì, hệ thống đường ống ngày càng rệu rã, tỷ lệ thất thoát nước sạch tăng cao và thường xuyên xảy ra sự cố vỡ ống (Hệ thống \-30). 
+* **Lựa chọn A (Kỹ trị an toàn):** Đóng cửa trạm để sửa chữa toàn diện, chấp nhận mất điện diện rộng một vùng trong vòng 2 ngày.  
+  * *Chỉ số:* Ngân sách \-5 | Lòng dân \-15 | Hệ thống \+20  
+* **Lựa chọn B (Chạy cố hệ thống):** Cho vận hành cầm chừng, không sửa ngay để tránh cắt điện của dân, cầu nguyện không có sự cố lớn hơn.  
+  * *Chỉ số:* Ngân sách \+5 | Lòng dân 0 | Hệ thống \-20  
+* **Lựa chọn C (Xã hội hóa khẩn cấp):** Thuê các kỹ sư của tập đoàn tư nhân vào sửa chữa siêu tốc với chi phí đắt đỏ để không phải cắt điện lâu.  
+  * *Chỉ số:* Ngân sách \-15 | Lòng dân \-5 | Hệ thống \+15
 
-#### **Năm 4: Bài toán Chuyển đổi Xanh (Quy hoạch điện VIII)**
+## **NĂM 2: LÀN SÓNG "XANH HÓA" & NGHỊCH LÝ ĐIỀU TIẾT**
 
-*Bối cảnh: Quốc tế áp thuế carbon, yêu cầu chuyển đổi từ than sang Khí LNG và Tái tạo.*
+### **Tình huống 2.1: Lưới điện nghẽn mạch**
 
-* Tình huống 4.1: Các dự án nhiệt điện than đang xây dựng dở. Có 3 dự án điện than lớn đã rót hàng tỷ USD nhưng đang bị các tổ chức quốc tế tẩy chay, cấm vận vốn.  
-  * *A (Hủy bỏ dự án):* Chấp nhận vứt bỏ hàng tỷ USD vốn Nhà nước để giữ đúng cam kết bảo vệ môi trường toàn cầu (Net Zero). (Ngân sách \-40, Hài lòng \+20, Hệ thống \-20 do hụt điện nền).  
-    → *Giải thích:* **Cam kết quốc tế đắt giá.** Hủy bỏ điện than giúp quốc gia đạt điểm uy tín cao trên trường quốc tế, mở đường cho các khoản tín dụng xanh (Hài lòng \+20). Tuy nhiên, bạn phải chấp nhận xóa sổ hàng tỷ USD vốn đầu tư công đã đổ vào móng công trình (Ngân sách \-40) và đối mặt nguy cơ thiếu "điện nền" ổn định vào giờ cao điểm (Hệ thống \-20).   
-  * *B (Cố đấm ăn xôi hoàn thành):* Phớt lờ quốc tế, hoàn thành nhà máy để đảm bảo có điện giá rẻ, chấp nhận bị đánh thuế xuất khẩu. (Ngân sách \+10, Hài lòng \-20, Hệ thống \+30).  
-    *→ Giải thích:* **Thực tế thực dụng.** Hoàn thành dự án giúp có ngay nguồn điện nền giá rẻ, công suất lớn để phục vụ phát triển kinh tế lập tức (Hệ thống \+30). Trớ trêu thay, quốc gia sẽ đối mặt với sự quay lưng của các quỹ môi trường toàn cầu và hàng hóa xuất khẩu sẽ bị đánh thuế carbon rất nặng (Ngân sách \+10, Hài lòng \-20).   
-* Tình huống 4.2: Cuộc đua điện khí LNG. Nhập khẩu khí hóa lỏng đắt gấp nhiều lần than.  
-  * *A (Nhập LNG giá cao, ép giá bán lẻ rẻ):* Nhà nước gánh phần chênh lệch khủng khiếp để có "điện sạch". (Ngân sách \-40, Hài lòng \+20, Hệ thống \+20).  
-    → *Giải thích:* **Gánh nặng chuyển đổi.** Chuyển sang điện khí giúp giảm một nửa lượng khí thải so với than, bảo vệ môi trường đô thị (Hài lòng \+20). Nhưng vì phải phụ thuộc 100% vào nguồn khí hóa lỏng nhập khẩu biến động theo giá thế giới, Ngân sách quốc gia sẽ bị bào mòn nghiêm trọng để bù khoản chênh lệch này (Ngân sách \-40).   
-  * *B (Từ chối LNG, quay lại đốt than trong nước):* Tiết kiệm tiền nhưng đối diện nguy cơ ô nhiễm không khí đô thị nghiêm trọng. (Ngân sách \+20, Hài lòng \-30, Hệ thống \+10).  
-    → *Giải thích:* **Tự chủ năng lượng giá rẻ.** Tận dụng nguồn than đá trong nước giúp tiết kiệm tối đa chi phí tài chính và không phụ thuộc vào nước ngoài (Ngân sách \+20). Cái giá phải trả là bụi mịn và ô nhiễm không khí tại các vùng lân cận trung tâm nhiệt điện sẽ tăng cao, đe dọa sức khỏe cộng đồng (Hài lòng \-30). 
+Nhà nước khuyến khích làm năng lượng sạch, dẫn đến việc các công ty tư nhân ồ ạt xây dựng nhà máy điện mặt trời ở miền Trung. Tuy nhiên, đường dây truyền tải trục chính của Nhà nước bị quá tải vì không thể hấp thụ hết nguồn điện này.
 
-#### **Năm 5: Tái cấu trúc cốt lõi**
+* **Lựa chọn A (Cắt giảm kỹ thuật):** Ép các nhà máy tư nhân ngừng phát điện lên lưới để bảo vệ an toàn hệ thống, mặc kệ họ kêu cứu vì nguy cơ phá sản.  
+  * *Chỉ số:* Ngân sách 0 | Lòng dân \-15 | Hệ thống \+20  
+* **Lựa chọn B (Chấp nhận rủi ro):** Đón nhận toàn bộ công suất điện tư nhân, chấp nhận chạy quá tải hệ thống trục dọc và đối mặt nguy cơ cháy lưới.  
+  * *Chỉ số:* Ngân sách \-10 | Lòng dân \+5 | Hệ thống \-25  
+* **Lựa chọn C (Ép tư nhân tự chủ):** Ra luật buộc các công ty tư nhân phải tự bỏ tiền xây hệ thống pin lưu trữ điện mới được phép nối vào lưới điện quốc gia.  
+  * *Chỉ số:* Ngân sách \+5 | Lòng dân \-10 | Hệ thống \+10
 
-*Bối cảnh: Đòi hỏi minh bạch hóa sự độc quyền.*
+### **Tình huống 2.2: Sức ép từ các "ông lớn" FDI**
 
-* Tình huống 5.1: Tách Trung tâm Điều độ (A0). Có sức ép yêu cầu tách trung tâm phân bổ điện ra khỏi Tập đoàn để minh bạch, không ưu ái "gà nhà".  
-  * *A (đồng ý tách bạch):* Chuyển A0 về Bộ quản lý. Tư nhân yên tâm đầu tư, nhưng hệ thống bị chia cắt trong ngắn hạn. (Ngân sách 0, Hài lòng \+20, Hệ thống \-20).  
-  * *→ Giải thích:* **Minh bạch hóa cuộc chơi.** Tách trung tâm điều độ ra khỏi đơn vị bán điện giúp triệt tiêu nghi ngờ "vừa đá bóng vừa thổi còi", tạo niềm tin tuyệt đối cho các nhà đầu tư tư nhân tham gia phát điện công bằng (Hài lòng \+20). Tuy nhiên, việc xáo trộn bộ máy quản lý trong ngắn hạn sẽ làm giảm tính phản ứng nhanh của hệ thống chỉ huy (Hệ thống \-20).   
-  * *B (Giữ chặt quyền lực):* Duy trì độc quyền điều độ để tối đa hóa hiệu quả tập trung, chấp nhận việc bị tư nhân quay lưng. (Ngân sách \+10, Hài lòng \-20, Hệ thống \+20).  
-    *→ Giải thích:* **Mệnh lệnh chỉ huy tối cao.** Giữ A0 ở lại giúp đảm bảo tính thống nhất, Nhà nước có thể ra lệnh điều phối các nguồn điện khẩn cấp ngay lập tức mà không cần qua các thủ tục hành chính phức tạp (Hệ thống \+20). Điểm yếu là thị trường điện sẽ tiếp tục bị coi là độc quyền nhóm, tư nhân sẽ hạn chế đầu tư nguồn mới vì sợ bị chèn ép (Hài lòng \-20).   
-* Tình huống 5.2: Tối hậu thư của thị trường. Các quỹ đầu tư quốc tế đưa ra lời đề nghị thâu tóm toàn bộ lưới truyền tải 500 kV giúp Nhà nước xóa sạch nợ nần.  
-  * *A (Bán toàn bộ lưới truyền tải cốt lõi):* Đổi lấy nguồn tiền khổng lồ, mất quyền kiểm soát "mạch máu" an ninh quốc gia. (Ngân sách \+60, Hài lòng 0, Hệ thống \-60).  
-    *→ Giải thích:* **Đổi chủ quyền lấy dòng tiền.** Bạn thu về một khoản ngân sách khổng lồ đủ để xóa sạch mọi nợ nần hạ tầng cũ (Ngân sách \+60). Nhưng giao "mạch máu" truyền tải quốc gia cho tư nhân hoặc quỹ nước ngoài đồng nghĩa với việc Nhà nước mất hoàn toàn công cụ điều tiết an ninh độc quyền. Quốc gia đứng trước rủi ro bị tê liệt nếu xảy ra xung đột lợi ích vĩ mô (Hệ thống \-60).  
-  * *B (Giữ vững thế trận lòng dân):* Kiên quyết giữ lưới điện quốc gia, kêu gọi toàn dân thắt lưng buộc bụng cùng Nhà nước vượt khó. (Ngân sách \-20, Hài lòng \+20, Hệ thống \+30).  
-    *→ Giải thích:* **Giữ vững trận địa vĩ mô.** Bạn bảo vệ thành công ranh giới an ninh quốc gia tối cao, giữ cho huyết mạch năng lượng luôn nằm trong tay Nhà nước để điều tiết vì lợi ích công cộng (Hệ thống \+30). Để làm được điều đó, toàn dân và Chính phủ sẽ phải chấp nhận thắt lưng buộc bụng, cùng chia sẻ gánh nặng tài chính để tự vượt khó (Ngân sách \-20, Hài lòng \+20). 
+Các tập đoàn công nghệ nước ngoài lớn (Samsung, Apple...) yêu cầu được mua điện sạch trực tiếp từ các trang trại điện tư nhân (cơ chế DPPA), không muốn mua qua sự độc quyền phân phối của Nhà nước nữa.
 
-### **Hệ thống Kết cục (Endings)**
+* **Lựa chọn A (Mở cửa thị trường):** Đồng ý cho tư nhân tự mua bán tự do với nhau, Nhà nước chỉ đứng ra thu một khoản phí truyền tải nhỏ.  
+  * *Chỉ số:* Ngân sách \-15 | Lòng dân \+15 | Hệ thống \-5  
+* **Lựa chọn B (Duy trì độc quyền):** Kiên quyết từ chối. Mọi nguồn điện phải bán cho Nhà nước với giá rẻ để Nhà nước điều tiết giá đồng đều cho cả nước.  
+  * *Chỉ số:* Ngân sách \+15 | Lòng dân \-15 | Hệ thống \+5  
+* **Lựa chọn C (Thí điểm giới hạn):** Cho phép mua bán trực tiếp nhưng chỉ áp dụng ở một vài khu công nghiệp lớn và đánh thuế điều tiết cao.  
+  * *Chỉ số:* Ngân sách \+5 | Lòng dân \+5 | Hệ thống 0
 
-### **Nhóm 1: Khủng hoảng cục bộ (Game Over \- Tệ nhất)**
+### **Tình huống 2.3: Cái bẫy giá điện nông thôn**
 
-Đây là các kết cục người chơi nhận ngay lập tức khi có **bất kỳ thanh chỉ số nào tụt xuống mức 0%** trước khi hết 5 năm nhiệm kỳ.
+*Hệ quả từ cơ chế điều tiết giá:* Do nguồn thu lớn từ thành thị và khu công nghiệp bị sụt giảm hoặc phải căng ra bù lỗ, quỹ "bù chéo" giá điện cho vùng sâu vùng xa bị cạn kiệt. Chi phí kéo điện đến biên giới, hải đảo đang lỗ nặng.
 
-* **Vỡ nợ quốc gia (Ngân sách \= 0%):** Bạn đã quá hào phóng ban phát phúc lợi hoặc đầu tư sai lầm. Tập đoàn phá sản, Chính phủ từ chối cứu trợ. Lưới điện bị bán tháo cho các chủ nợ quốc tế. Bạn bị cách chức và đối mặt với điều trần trước Quốc hội.  
-* **Bạo loạn năng lượng (Hài lòng \= 0%):** Bạn ép người dân và doanh nghiệp chịu mức giá trên trời hoặc cắt điện quá phũ phàng. Các cuộc biểu tình nổ ra, lạm phát phi mã đẩy nền kinh tế vào suy thoái. Áp lực chính trị buộc bạn phải từ chức ngay lập tức.  
-* **Kỷ nguyên tăm tối (Hệ thống \= 0%):** Hạ tầng quá tải, không được bảo trì hoặc đánh mất quyền kiểm soát cốt lõi. Một sự cố domino xảy ra khiến rã lưới điện toàn quốc (Blackout). Đất nước chìm trong bóng tối nhiều tuần, Thiệt hại kinh tế không thể đong đếm.
+* **Lựa chọn A (Xóa bỏ bao cấp):** Cắt bớt phần trợ giá, chấp nhận nâng giá điện nông thôn và vùng sâu vùng xa lên bằng với thành thị.  
+  * *Chỉ số:* Ngân sách \+15 | Lòng dân \-20 | Hệ thống 0  
+* **Lựa chọn B (Hy sinh hạ tầng):** Lấy tiền từ quỹ bảo trì, nâng cấp lưới điện đô thị để tiếp tục bù lỗ, giữ điện giá rẻ cho vùng nghèo.  
+  * *Chỉ số:* Ngân sách 0 | Lòng dân \+10 | Hệ thống \-15  
+* **Lựa chọn C (Vay nợ an sinh):** Vay tín dụng ngân hàng để tiếp tục duy trì mức trợ giá an sinh xã hội cho nông thôn, chấp nhận gánh nợ lớn.  
+  * *Chỉ số:* Ngân sách \-15 | Lòng dân \+10 | Hệ thống 0
 
-### **Nhóm 2: Sống sót lệch chuẩn (Sự đánh đổi cực đoan \- Trung bình)**
+## **NĂM 3: AN NINH NGUỒN NƯỚC & MẠNG LƯỚI ĐÔ THỊ**
 
-Hoàn thành 5 năm nhiệm kỳ, nhưng có **một chỉ số áp đảo (\> 70%) trong khi các chỉ số khác thoi thóp (\< 30%)**. Đây là hệ quả của tư duy thiên kiến rập khuôn.
+### **Tình huống 3.1: Xung đột Nước \- Điện**
 
-* **Tập đoàn máu lạnh (Ngân sách \> 70%, Hài lòng \< 30%):** Bạn điều hành hạ tầng quốc gia như một cỗ máy vắt kiệt lợi nhuận. Chỉ số tài chính của bạn đẹp rực rỡ, các nhà đầu tư tư nhân tung hô bạn. Tuy nhiên, bất bình đẳng xã hội gia tăng mạnh, vùng sâu, vùng xa hoàn toàn bị bỏ rơi.  
-* **Nhà dân túy ảo tưởng (Hài lòng \> 70%, Ngân sách \< 30%):** Bạn là vị thánh trong mắt người dân vì giữ giá điện rẻ mạt và không bao giờ cắt điện. Nhưng để làm được điều đó, bạn đã để lại một "di sản" nợ công khổng lồ cho người tiền nhiệm khóa sau gánh vác, và hệ thống thì đang rệu rã chờ ngày sụp đổ vì thiếu vốn bảo trì.  
-* **Pháo đài bảo thủ (Hệ thống \> 70%, Ngân sách & Hài lòng \< 40%):** Nỗi sợ mất an ninh khiến bạn cự tuyệt mọi sự đổi mới và đóng cửa với tư nhân. Mạng lưới điện của bạn vững như bàn thạch và an toàn tuyệt đối, nhưng giá thành vận hành quá đắt đỏ và nền kinh tế bỏ lỡ cơ hội chuyển đổi xanh.
+Hạn hán kéo dài khiến lượng nước tại các hồ chứa giảm sâu. Nông dân vùng hạ lưu kêu cứu vì ruộng đồng chết khô, trong khi nếu xả nước cứu lúa thì các tuabin thủy điện sẽ không còn áp lực để phát điện.
 
-### **Nhóm 3: Kẻ giữ đền nhẫn nại (Thực tế phổ biến \- Tốt)**
+* **Lựa chọn A (Ưu tiên công nghiệp):** Giữ nước lại trong hồ để phát điện, bảo đảm không mất điện thành phố, chấp nhận nông nghiệp chịu thiệt hại.  
+  * *Chỉ số:* Ngân sách \+10 | Lòng dân \-20 | Hệ thống \+15  
+* **Lựa chọn B (Ưu tiên nông dân):** Mở cửa xả nước cứu lúa cho bà con, chấp nhận thiếu hụt nguồn điện và tốn tiền chạy nhiệt điện dầu bù đắp.  
+  * *Chỉ số:* Ngân sách \-15 | Lòng dân \+25 | Hệ thống \-15  
+* **Lựa chọn C (Điều tiết chia đôi):** Cấp nước theo khung giờ nghiêm ngặt, cả nông dân và nhà máy điện đều phải cắt giảm 50% nhu cầu.  
+  * *Chỉ số:* Ngân sách \-5 | Lòng dân \-5 | Hệ thống \+5
 
-Hoàn thành 5 năm nhiệm kỳ, **không có chỉ số nào dưới 30%, và dao động quanh mức 40-50%**.
+### **Tình huống 3.2: Hạ tầng nước sạch rệu rã**
 
-* **Nhà kỹ trị thực dụng:** Bạn sống sót qua nhiệm kỳ đầy bão táp bằng những quyết định giật gấu vá vai. Không ai thực sự hài lòng với bạn, ngân sách chỉ vừa đủ sống, hệ thống thỉnh thoảng vẫn gặp sự cố nhỏ. Tuy nhiên, ở tầm vĩ mô, bạn đã làm tốt nhất có thể để giữ cho đất nước không sụp đổ giữa vô vàn biến cố. Đây là hình ảnh phản chiếu chân thực nhất của các nhà quản lý điện lực hiện tại.
+Do dồn toàn bộ nguồn lực xử lý khủng hoảng điện, hệ thống đường ống dẫn nước sạch đô thị bị xuống cấp, tỷ lệ rò rỉ và thất thoát nước sạch lên tới 30%. Ngân sách công không còn tiền sửa.
 
-### **Nhóm 4: Kiến trúc sư vĩ mô (Cực kỳ khó \- Tốt nhất)**
+* **Lựa chọn A (Tư nhân hóa mảng nước):** Bán một phần cổ phần mạng lưới nước sạch cho tập đoàn tư nhân để họ tự bỏ vốn nâng cấp, đổi lại họ được tăng giá nước gấp đôi.  
+  * *Chỉ số:* Ngân sách \+20 | Lòng dân \-20 | Hệ thống \+15  
+* **Lựa chọn B (Giữ nguyên hiện trạng):** Kiên quyết giữ sở hữu nhà nước, sửa chữa nhỏ giọt bằng vốn công, chấp nhận người dân thỉnh thoảng bị mất nước.  
+  * *Chỉ số:* Ngân sách \-15 | Lòng dân \+5 | Hệ thống \-10  
+* **Lựa chọn C (Thu phí bảo trì công ích):** Thêm một khoản "phí hạ tầng nước" vào hóa đơn hằng tháng của người dân để lấy tiền sửa ống nước ngay.  
+  * *Chỉ số:* Ngân sách \+5 | Lòng dân \-15 | Hệ thống \+15
 
-Hoàn thành nhiệm kỳ với **cả 3 chỉ số đều trên 60%**.
+### **Tình huống 3.3: Khủng hoảng ô nhiễm đầu nguồn**
 
-* **Huyền thoại điều tiết:** Bạn là một thiên tài giải phẫu hệ thống. Bạn biết lúc nào nên để "bàn tay vô hình" của thị trường tư nhân nhảy vào, và lúc nào cần "bàn tay sắt" của Nhà nước can thiệp. Bạn tối ưu hóa được lợi nhuận, giữ vững được lòng dân và nâng cấp thành công hệ thống. Đạt được kết cục này đòi hỏi người chơi phải phân tích chi ly từng con số và có tầm nhìn xa trước mọi biến động.
+Một sự cố xả thải chất độc hóa học từ nhà máy tư nhân xảy ra gần nguồn sông cung cấp nước sạch cho toàn thành phố.
+
+* **Lựa chọn A (An toàn tuyệt đối):** Đóng cửa nhà máy nước sạch ngay lập tức để sục rửa hệ thống, chấp nhận cắt nước toàn thành phố trong 3 ngày.  
+  * *Chỉ số:* Ngân sách \-10 | Lòng dân \-25 | Hệ thống \+20  
+* **Lựa chọn B (Xử lý cầm chừng):** Không cắt nước diện rộng, tăng hàm lượng clo khử trùng và khuyến cáo người dân chỉ dùng để tắm giặt, không ăn uống.  
+  * *Chỉ số:* Ngân sách 0 | Lòng dân \-15 | Hệ thống \-10  
+* **Lựa chọn C (Ứng phó khẩn cấp):** Huy động lực lượng công ích và chuyên gia xử lý hóa chất trực tiếp tại dòng sông với chi phí khổng lồ từ ngân sách.  
+  * *Chỉ số:* Ngân sách \-25 | Lòng dân \+15 | Hệ thống \+10
+
+## **NĂM 4: BÀI TOÁN "CHUYỂN ĐỔI XANH" (QUY HOẠCH ĐIỆN VIII)**
+
+### **Tình huống 4.1: Áp lực từ định ước quốc tế**
+
+Theo cam kết giảm phát thải (Net Zero), các tổ chức tài chính quốc tế đồng loạt ngừng cấp vốn cho 3 dự án nhiệt điện than lớn đang xây dựng dở dang của nước ta.
+
+* **Lựa chọn A (Tuân thủ quốc tế):** Hủy bỏ hoàn toàn các dự án điện than này, chấp nhận mất trắng số tiền hàng tỷ USD đã đổ vào móng công trình.  
+  * *Chỉ số:* Ngân sách \-25 | Lòng dân \+15 | Hệ thống \-15  
+* **Lựa chọn B (Cố đấm ăn xôi):** Tự bỏ tiền ngân sách hoặc vay nợ lãi suất cao từ nguồn khác để xây tiếp, vì nước ta đang rất cần nguồn điện ổn định này.  
+  * *Chỉ số:* Ngân sách \-20 | Lòng dân \-5 | Hệ thống \+25  
+* **Lựa chọn C (Hợp tác công tư \- PPP):** Kêu gọi các tập đoàn tư nhân trong nước bỏ tiền mua lại và hoàn thiện nhà máy, Nhà nước cam kết mua lại điện.  
+  * *Chỉ số:* Ngân sách \+10 | Lòng dân \-10 | Hệ thống \+10
+
+### **Tình huống 4.2: Hàng rào Thuế Carbon**
+
+*Hệ quả của việc tiếp tục dùng điện than:* Các quốc gia phương Tây áp đặt "Thuế carbon" rất nặng lên hàng hóa xuất khẩu từ Việt Nam khiến các doanh nghiệp trong nước điêu đứng, nguy cơ phá sản hàng loạt.
+
+* **Lựa chọn A (Hỗ trợ doanh nghiệp):** Trích ngân sách quốc gia để cấp bù, hỗ trợ thuế cho các doanh nghiệp xuất khẩu vượt qua giai đoạn khó khăn này.  
+  * *Chỉ số:* Ngân sách \-20 | Lòng dân \+15 | Hệ thống 0  
+* **Lựa chọn B (Tự lực cánh sinh):** Bắt buộc các doanh nghiệp tự chuyển đổi công nghệ hoặc tự chịu thuế, Nhà nước không dùng tiền công để cứu trợ tư nhân.  
+  * *Chỉ số:* Ngân sách \+15 | Lòng dân \-15 | Hệ thống \+5  
+* **Lựa chọn C (Thu thuế nội địa đánh ngược):** Đánh thuế môi trường thật nặng vào chính các nhà máy điện than trong nước để lấy tiền đó trợ cấp cho doanh nghiệp xanh.  
+  * *Chỉ số:* Ngân sách \+5 | Lòng dân \-10 | Hệ thống \-5
+
+### **Tình huống 4.3: Canh bạc điện khí hóa lỏng (LNG)**
+
+Để thay thế điện than, Nhà nước chuyển hướng sang xây nhà máy điện khí LNG. Tuy nhiên, nguồn nhiên liệu này phải nhập khẩu 100% và giá khí hóa lỏng thế giới đang biến động rất thất thường.
+
+* **Lựa chọn A (Mua bảo hiểm giá):** Ký hợp đồng mua khí dài hạn với giá cao cố định từ đối tác ngoại để đảm bảo hệ thống luôn có nhiên liệu an toàn.  
+  * *Chỉ số:* Ngân sách \-15 | Lòng dân 0 | Hệ thống \+20  
+* **Lựa chọn B (Lướt sóng thị trường):** Mua sỉ theo giá thị trường tự do hằng tháng, chấp nhận rủi ro giá có thể tăng vọt nếu thế giới xảy ra xung đột.  
+  * *Chỉ số:* Ngân sách \+10 | Lòng dân 0 | Hệ thống \-15  
+* **Lựa chọn C (Tái khai thác nội địa):** Giảm bớt tỷ trọng điện khí, quay lại tận dụng tối đa nguồn than đá và thủy điện có sẵn trong nước.  
+  * *Chỉ số:* Ngân sách \+15 | Lòng dân \-15 | Hệ thống \+5
+
+## **NĂM 5: TÁI CẤU TRÚC BỘ MÁY & QUYẾT ĐỊNH CUỐI CÙNG**
+
+### **Tình huống 5.1: Tách Trung tâm Điều độ Quốc gia (A0)**
+
+Để thị trường điện minh bạch, quốc tế yêu cầu phải tách Trung tâm điều độ hệ thống điện (A0) ra khỏi tập đoàn độc quyền EVN để chuyển về Bộ quản lý, đảm bảo tư nhân không bị chèn ép khi phát điện.
+
+* **Lựa chọn A (Đồng ý tách bạch):** Chuyển giao hoàn toàn về Bộ. Tư nhân yên tâm đầu tư, nhưng bộ máy hành chính mới vận hành lúng túng gây trễ nải hệ thống.  
+  * *Chỉ số:* Ngân sách \-5 | Lòng dân \+15 | Hệ thống \-15  
+* **Lựa chọn B (Kiên quyết giữ lại):** Giữ nguyên A0 nằm trong tập đoàn để đảm bảo mệnh lệnh chỉ huy tối cao, điều phối sự cố cắt điện khẩn cấp nhanh nhất.  
+  * *Chỉ số:* Ngân sách \+10 | Lòng dân \-10 | Hệ thống \+15  
+* **Lựa chọn C (Mô hình nửa vời):** Thành lập công ty độc lập nhưng vốn 100% vẫn thuộc tập đoàn quản lý nhằm đối phó với sức ép minh bạch.  
+  * *Chỉ số:* Ngân sách \+5 | Lòng dân \+5 | Hệ thống 0
+
+### **Tình huống 5.2: Tối hậu thư thâu tóm lưới điện**
+
+Một quỹ đầu tư hạ tầng quốc tế khổng lồ đưa ra đề nghị: Họ sẽ bỏ tiền xóa sạch toàn bộ các khoản nợ hạ tầng cho ngành điện Việt Nam, đổi lại họ muốn quyền vận hành đường dây truyền tải 500kV Bắc \- Nam trong vòng 20 năm.
+
+* **Lựa chọn A (Bán mạch máu quốc gia):** Chấp nhận giao lưới điện. Ngành điện sạch nợ, ngân sách dồi dào nhưng mất hoàn toàn công cụ điều tiết an ninh độc quyền.  
+  * *Chỉ số:* Ngân sách \+35 | Lòng dân 0 | Hệ thống \-30  
+* **Lựa chọn B (Giữ vững chủ quyền):** Từ chối thẳng thừng. Lưới điện là an ninh quốc gia tối cao, Nhà nước phải độc quyền nắm giữ, chấp nhận tự thắt lưng buộc bụng gánh nợ.  
+  * *Chỉ số:* Ngân sách \-15 | Lòng dân \+10 | Hệ thống \+20  
+* **Lựa chọn C (Tư nhân hóa nhánh nhỏ):** Chỉ cho phép tư nhân đấu thầu và vận hành các đường dây nhánh nhỏ địa phương, kiên quyết giữ trục xương sống 500kV.  
+  * *Chỉ số:* Ngân sách \+10 | Lòng dân \+5 | Hệ thống \+5
+
+### **Tình huống 5.3: Cơ chế giá điện hai thành phần**
+
+Nhiệm kỳ sắp kết thúc, bạn phải chốt phương án tính giá điện mới: Người dân phải trả "tiền công suất sẵn sàng của hạ tầng" (như phí thuê báo cố định) \+ "tiền điện thực tế tiêu thụ", giúp Nhà nước có dòng tiền ổn định nâng cấp lưới điện.
+
+* **Lựa chọn A (Áp dụng triệt để):** Ban hành ngay lập tức cho toàn dân nhằm có nguồn thu lớn tái thiết hệ thống, bất chấp người dân kêu ca.  
+  * *Chỉ số:* Ngân sách \+25 | Lòng dân \-25 | Hệ thống \+10  
+* **Lựa chọn B (Chỉ ép doanh nghiệp):** Chỉ áp dụng cơ chế này đối với các nhà máy sản xuất công nghiệp lớn, miễn trừ hoàn toàn cho hộ gia đình.  
+  * *Chỉ số:* Ngân sách \+10 | Lòng dân \+10 | Hệ thống \-15  
+* **Lựa chọn C (Hoãn vô thời hạn):** Tiếp tục dùng cách tính giá điện lũy tiến bậc thang cũ để tránh gây sốc tâm lý cho xã hội.  
+  * *Chỉ số:* Ngân sách \-10 | Lòng dân \+10 | Hệ thống \-5
+
+## **3\. TÍNH NĂNG ĐỀ XUẤT: "NHẬT KÝ BIỆN HỘ" (REVIEW & DEBATE PANEL)**
+
+Sau khi trò chơi kết thúc (dù thắng hay thua), ứng dụng web sẽ hiện ra giao diện **Nhật Ký Điều Hành** kèm kết cục họ nhận được.
+
+### **Giao diện bảng hiển thị tổng kết cho các nhóm:**
+
+| Lượt chơi | Tình huống | Lựa chọn của nhóm | Hệ quả thực tế | Lý do chọn (Nhóm tự điền/trình bày) |
+| :---- | :---- | :---- | :---- | :---- |
+| **1** | 1.1 Đêm hè mất điện | **A** | Ưu tiên FDI, dân chịu nóng | *Nhóm phải đứng dậy giải thích trước lớp...* |
+| **2** | 1.2 Báo cáo tài chính | **B** | Xin Chính phủ bù lỗ | *...lý do tại sao đưa ra quyết định này.* |
+
+### 
+
+## **I. NHÓM KẾT CỤC SỤP ĐỔ LẬP TỨC (GAME OVER \- TỆ NHẤT)**
+
+### ***Nhóm này xảy ra ngay khi có bất kỳ chỉ số nào chạm mức 0% trước khi kết thúc 5 năm nhiệm kỳ.***
+
+### **Hạng 8 (Tệ nhất): Kỷ nguyên tăm tối (An ninh Hệ thống \= 0%)**
+
+* ### **Mô tả: Hệ thống hạ tầng điện nước quốc gia bị rã lưới toàn diện (Blackout). Đất nước chìm trong bóng tối và mất nước kéo dài nhiều tuần. Mọi hoạt động sản xuất, công nghiệp, giao thông và sinh hoạt bị tê liệt hoàn toàn.**
+
+* ### **Tại sao lại có kết cục này: Đây là hậu quả của tư duy "Kỹ thuật vị dân túy". Nhóm điều hành đã liên tục đưa ra các quyết định chiều chuộng lòng dân hoặc tiết kiệm ngân sách ngắn hạn mà phớt lờ các cảnh báo kỹ thuật vật lý (như chạy cố trạm biến áp quá tải, đón nhận ồ ạt điện tư nhân mà không nâng cấp đường dây, hoặc không bảo trì ống nước). Ngành điện nước có một đặc thù: khi giới hạn chịu tải vật lý bị phá vỡ, sự sụp đổ sẽ diễn ra theo hiệu ứng domino chỉ trong vài giây, không thể cứu vãn bằng tiền hay lòng dân.**
+
+### **Hạng 7: Bạo loạn năng lượng (Lòng dân \= 0%)**
+
+* ### **Mô tả: Các làn sóng biểu tình, bãi công quy mô lớn nổ ra khắp các đô thị nhằm phản đối chính sách năng lượng. Giá cả hàng hóa phi mã do chi phí điện nước tăng cao, đẩy nền kinh tế vào suy thoái nghiêm trọng và mất ổn định chính trị.**
+
+* ### **Tại sao lại có kết cục này: Hậu quả của tư duy "Kinh tế học máu lạnh". Nhóm điều hành quá áp lực về mặt tài chính hoặc bị cuốn theo cái bẫy tối đa hóa lợi nhuận của tư nhân hóa, liên tục ép người dân chịu giá điện nước tăng đột biến, cắt điện sinh hoạt một cách phũ phàng để ưu ái nhà máy. Khi chi phí cho các nhu cầu thiết yếu vượt quá sức chịu đựng của người nghèo, công bằng xã hội bị phá vỡ, lòng dân chuyển thành sự phẫn nộ làm sụp đổ hệ thống từ bên trong.**
+
+### **Hạng 6: Vỡ nợ quốc gia (Ngân sách \= 0%)**
+
+* ### **Mô tả: Tập đoàn năng lượng quốc gia tuyên bố phá sản với những khoản nợ khổng lồ không thể chi trả. Chính phủ buộc phải bán tháo lưới điện quốc gia và các nhà máy cốt lõi cho các quỹ đầu tư nước ngoài để siết nợ, đánh mất quyền tự chủ chiến lược.**
+
+* ### **Tại sao lại có kết cục này: Hậu quả của tư duy "Bao cấp ảo tưởng". Nhóm điều hành vì muốn giữ hình ảnh "vị cứu tinh" trong mắt người dân đã liên tục dùng ngân sách và tiền thuế để bù lỗ cho việc mua đắt bán rẻ, hoặc tự gánh toàn bộ chi phí chuyển đổi xanh đắt đỏ mà cự tuyệt sự tham gia của dòng vốn tư nhân. Ngân sách quốc gia luôn có hạn; khi "bơm tiền" vô tội vạ mà không có nguồn thu bù đắp, quả bom nợ công sẽ phát nổ.**
+
+## **II. NHÓM SỐNG SÓT LỆCH CHUẨN (ĐÁNH ĐỔI CỰC ĐOAN \- TRUNG BÌNH)**
+
+### ***Nhóm này hoàn thành đủ 15 câu hỏi, nhưng có sự chênh lệch điểm số cực lớn do tư duy quản trị bị thiên kiến.***
+
+### **Hạng 5: Tập đoàn máu lạnh (Ngân sách \> 70% | Lòng dân \< 30%)**
+
+* ### **Mô tả: Doanh nghiệp năng lượng giàu nứt vách, dòng tiền rực rỡ, hạ tầng hiện đại. Tuy nhiên, bất bình đẳng xã hội sâu sắc, người nghèo và các vùng nông thôn xa xôi bị bỏ rơi hoàn toàn vì "không mang lại lợi nhuận".**
+
+* ### **Tại sao lại có kết cục này: Nhóm điều hành đã vận hành ngành điện nước giống như một công ty thương mại thuần túy. Họ chọn mở cửa thị trường tự do quá đà, tăng giá theo cơ chế thị trường sòng phẳng và bán cổ phần cho tư nhân để thu tiền về. Kết cục này chứng minh một sự thật: Nếu tư nhân hóa hoàn toàn, hạ tầng sẽ chỉ phục vụ người giàu và các đô thị lớn có lãi, mục tiêu an sinh xã hội sẽ bị nghiền nát.**
+
+### **Hạng 4: Nhà dân túy ảo tưởng (Lòng dân \> 70% | Ngân sách \< 30%)**
+
+* ### **Mô tả: Bạn là vị thánh trong mắt công chúng vì điện nước luôn rẻ mạt và tràn trề. Nhưng hệ thống đang rệu rã từng ngày và bạn đang để lại một "di sản" là khoản nợ công khổng lồ bắt buộc khóa sau phải tăng giá điện để trả nợ.**
+
+* ### **Tại sao lại có kết cục này: Nhóm điều hành bị kẹt vào cơ chế lấy lòng đám đông. Cứ có xung đột là chọn phương án chi tiền gánh lỗ hoặc hoãn tăng giá vô thời hạn. Đây là kiểu quản trị "giật gấu vá vai", chuyển áp lực tài chính từ thế hệ này sang thế hệ khác bằng nợ vay, một mô hình phát triển hoàn toàn không bền vững.**
+
+### **Hạng 3: Pháo đài bảo thủ (An ninh Hệ thống \> 70% | Ngân sách & Dân chúng \< 40%)**
+
+* ### **Mô tả: Lưới điện vững như bàn thạch, độc quyền nhà nước được giữ vững tuyệt đối. Tuy nhiên, giá thành vận hành quá đắt đỏ do công nghệ lạc hậu, nền kinh tế điêu đứng vì bị thế giới áp thuế carbon nặng nề do chậm chuyển đổi xanh.**
+
+* ### **Tại sao lại có kết cục này: Hậu quả của nỗi sợ mất kiểm soát. Vì quá sợ rủi ro an ninh năng lượng hoặc sợ tư nhân làm loạn, nhóm điều hành đã cự tuyệt mọi cơ chế thị trường (như DPPA, tách A0 hay xã hội hóa). Quyết định này giúp quốc gia an toàn về mặt kỹ thuật nhưng làm triệt tiêu tính cạnh tranh, khiến nền kinh tế bị cô lập và tụt hậu so với xu thế xanh của thế giới.**
+
+## **III. NHÓM QUẢN TRỊ THÀNH CÔNG (TỐT NHẤT)**
+
+### **Hạng 2: Nhà kỹ trị thực dụng (Mọi chỉ số dao động từ 40% \- 50%)**
+
+* ### **Mô tả: Ngân sách vừa đủ sống, hệ thống thỉnh thoảng vẫn có sự cố nhỏ, người dân đôi lúc kêu ca về giá nhưng chấp nhận được. Đất nước vượt qua 5 năm bão táp một cách an toàn.**
+
+* ### **Tại sao lại có kết cục này: Đây là hình ảnh phản chiếu chân thực nhất của các nhà quản lý vĩ mô ngoài đời thực. Nhóm điều hành đã hiểu được nghệ thuật của sự thỏa hiệp. Họ biết rằng không bao giờ có một quyết định làm hài lòng tất cả; họ chấp nhận lúc này chịu lỗ một chút để dân yên lòng, lúc sau phải tăng giá một chút để cứu ngân sách. Đây là kết quả tốt, thể hiện tư duy thực tế, khôn ngoan.**
+
+### **Hạng 1 (Tốt nhất): Kiến trúc sư vĩ mô / Huyền thoại điều tiết (Mọi chỉ số \> 60%)**
+
+* ### **Mô tả: Đạt tới trạng thái cân bằng hoàn hảo. Nhà nước giữ vững được huyết mạch truyền tải và an ninh quốc gia, nhưng vẫn khéo léo thu hút hàng tỷ USD vốn tư nhân vào phát triển nguồn điện xanh. Kinh tế tăng trưởng tốt, lòng dân đồng thuận cao.**
+
+* ### **Tại sao lại có kết cục này: Nhóm chơi đạt được kết cục này là những thiên tài điều phối. Họ biết chính xác khâu nào cần "bàn tay sắt" độc quyền của Nhà nước để bảo vệ chủ quyền (như trục truyền tải 500kV), và khâu nào nên giải phóng cho "bàn tay vô hình" của tư nhân nhảy vào cạnh tranh để tối ưu chi phí (như phát điện mặt trời, cơ chế DPPA). Họ sử dụng cơ chế thị trường để phục vụ mục tiêu xã hội chứ không để thị trường thao túng xã hội.**
+
+### 
+
+### **Quy trình triển khai tương tác trong lớp học:**
+
+1. **Lượt chơi duy nhất:** Mỗi nhóm quét mã QR mở trình duyệt web trên laptop hoặc điện thoại, thảo luận kỹ và chỉ bấm chọn đúng một lần.  
+2. **Xuất nhật ký:** Khi kết thúc game, màn hình trả về mã kết cục (Ending) cùng danh sách 15 quyết định họ đã bấm.  
+3. **Biện hộ trước lớp:** Giáo viên gọi nhóm lên bảng, chiếu giao diện lịch sử lựa chọn của nhóm đó lên máy chiếu. Nhóm phải **trình bày lý do kinh tế/xã hội** giải thích cho các quyết định của mình (Ví dụ: *"Tại sao ở lượt 2.2 nhóm lại chọn duy trì độc quyền thay vì mở cửa thị trường?"*).  
+4. **Kết luận từ nhóm:** Nhóm tự đúc kết bài học: Tại sao chuỗi lựa chọn đó lại dẫn họ đến kết cục cuối cùng (vỡ nợ, bạo loạn hay Huyền thoại điều tiết). Từ đó, làm nổi bật lên thông điệp cốt lõi: **Tại sao Việt Nam không thể tư nhân hóa hoàn toàn ngành điện nước**.
 
 ### **Cách triển khai trong lớp học**
 
