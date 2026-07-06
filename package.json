@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "node build.js",
+    "build": "echo 'No build required'",
     "app": "node src/engine/service/engine-app.js"
   },
   "type": "module",
