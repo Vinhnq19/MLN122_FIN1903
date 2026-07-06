@@ -148,17 +148,20 @@ export const SCENARIOS = [
             {
                 text: "A. Cắt giảm kỹ thuật: Ép các nhà máy tư nhân ngừng phát điện lên lưới để bảo vệ an toàn hệ thống, mặc kệ họ kêu cứu vì nguy cơ phá sản.",
                 effects: { budget: 0, satisfaction: -15, stability: 20 },
-                feedback: "Lưới điện được an toàn tuyệt đối, nhưng các nhà đầu tư tư nhân khóc ròng và mất niềm tin vào chính sách của bạn."
+                feedback: "Lưới điện được an toàn tuyệt đối, nhưng các nhà đầu tư tư nhân khóc ròng và mất niềm tin vào chính sách của bạn.",
+                image: "./src/assets/opt2_1_a.png"
             },
             {
                 text: "B. Chấp nhận rủi ro: Đón nhận toàn bộ công suất điện tư nhân, chấp nhận chạy quá tải hệ thống trục dọc và đối mặt nguy cơ cháy lưới.",
                 effects: { budget: -10, satisfaction: 5, stability: -25 },
-                feedback: "Các nhà máy kiếm được tiền, nhưng bạn đang đưa cả quốc gia vào rủi ro rã lưới điện cực kỳ nguy hiểm."
+                feedback: "Các nhà máy kiếm được tiền, nhưng bạn đang đưa cả quốc gia vào rủi ro rã lưới điện cực kỳ nguy hiểm.",
+                image: "./src/assets/opt2_1_b.png"
             },
             {
                 text: "C. Ép tư nhân tự chủ: Ra luật buộc các công ty tư nhân phải tự bỏ tiền xây hệ thống pin lưu trữ điện mới được phép nối vào lưới điện quốc gia.",
                 effects: { budget: 5, satisfaction: -10, stability: 10 },
-                feedback: "Bạn giảm bớt gánh nặng cho hệ thống, nhưng rào cản tài chính mới này khiến nhiều dự án năng lượng sạch phải đắp chiếu."
+                feedback: "Bạn giảm bớt gánh nặng cho hệ thống, nhưng rào cản tài chính mới này khiến nhiều dự án năng lượng sạch phải đắp chiếu.",
+                image: "./src/assets/opt2_1_c.png"
             }
         ]
     },
@@ -171,17 +174,20 @@ export const SCENARIOS = [
             {
                 text: "A. Mở cửa thị trường: Đồng ý cho tư nhân tự mua bán tự do với nhau, Nhà nước chỉ đứng ra thu phí truyền tải nhỏ.",
                 effects: { budget: -15, satisfaction: 15, stability: -5 },
-                feedback: "Khối FDI rất hài lòng và mở rộng đầu tư, nhưng Nhà nước mất đi một nguồn thu béo bở để trợ giá cho người nghèo."
+                feedback: "Khối FDI rất hài lòng và mở rộng đầu tư, nhưng Nhà nước mất đi một nguồn thu béo bở để trợ giá cho người nghèo.",
+                image: "./src/assets/opt2_2_a.png"
             },
             {
                 text: "B. Duy trì độc quyền: Kiên quyết từ chối. Mọi nguồn điện phải bán cho Nhà nước với giá rẻ để Nhà nước điều tiết giá đồng đều.",
                 effects: { budget: 15, satisfaction: -15, stability: 5 },
-                feedback: "Ngân sách dồi dào, nhưng các tập đoàn đa quốc gia đe dọa sẽ chuyển nhà máy sang quốc gia khác có chính sách linh hoạt hơn."
+                feedback: "Ngân sách dồi dào, nhưng các tập đoàn đa quốc gia đe dọa sẽ chuyển nhà máy sang quốc gia khác có chính sách linh hoạt hơn.",
+                image: "./src/assets/opt2_2_b.png"
             },
             {
                 text: "C. Thí điểm giới hạn: Cho phép mua bán trực tiếp ở một vài khu công nghiệp lớn và đánh thuế điều tiết cao.",
                 effects: { budget: 5, satisfaction: 5, stability: 0 },
-                feedback: "Một bước lùi chiến thuật! Cả Nhà nước và tư nhân đều có chút lợi ích, dù chưa thực sự giải quyết triệt để vấn đề."
+                feedback: "Một bước lùi chiến thuật! Cả Nhà nước và tư nhân đều có chút lợi ích, dù chưa thực sự giải quyết triệt để vấn đề.",
+                image: "./src/assets/opt2_2_c.png"
             }
         ]
     },
@@ -189,22 +195,25 @@ export const SCENARIOS = [
         id: "2.3",
         title: "2.3: Cái bẫy giá điện",
         situation: "Do quỹ \"bù chéo\" cạn kiệt, chi phí kéo điện đến biên giới, hải đảo đang lỗ nặng. Nhà nước không còn tiền để bù đắp giá điện rẻ cho vùng sâu vùng xa.",
-        image: "./src/assets/sit3_1.png",
+        image: "./src/assets/sit2_3.png",
         options: [
             {
                 text: "A. Xóa bỏ bao cấp: Cắt bớt phần trợ giá, chấp nhận nâng giá điện nông thôn và vùng sâu vùng xa lên bằng với thành thị.",
                 effects: { budget: 15, satisfaction: -20, stability: 0 },
-                feedback: "Tập đoàn hết lỗ, nhưng sự chênh lệch giàu nghèo tăng cao. Người dân vùng sâu cảm thấy bị chính phủ bỏ rơi."
+                feedback: "Tập đoàn hết lỗ, nhưng sự chênh lệch giàu nghèo tăng cao. Người dân vùng sâu cảm thấy bị chính phủ bỏ rơi.",
+                image: "./src/assets/opt2_3_a.png"
             },
             {
                 text: "B. Hy sinh hạ tầng: Lấy tiền từ quỹ bảo trì lưới điện đô thị để tiếp tục bù lỗ, giữ điện giá rẻ cho vùng nghèo.",
                 effects: { budget: 0, satisfaction: 10, stability: -15 },
-                feedback: "An sinh xã hội được giữ vững, nhưng hạ tầng tại các thành phố lớn bắt đầu rỉ sét và dễ gặp sự cố vì không có tiền bảo dưỡng."
+                feedback: "An sinh xã hội được giữ vững, nhưng hạ tầng tại các thành phố lớn bắt đầu rỉ sét và dễ gặp sự cố vì không có tiền bảo dưỡng.",
+                image: "./src/assets/opt2_3_b.png"
             },
             {
                 text: "C. Vay nợ an sinh: Vay tín dụng ngân hàng để tiếp tục duy trì mức trợ giá an sinh xã hội cho nông thôn, gánh nợ lớn.",
                 effects: { budget: -15, satisfaction: 10, stability: 0 },
-                feedback: "Người nghèo vẫn có điện rẻ, nhưng quả bom nợ công ngày càng phình to, chờ thế hệ sau giải quyết."
+                feedback: "Người nghèo vẫn có điện rẻ, nhưng quả bom nợ công ngày càng phình to, chờ thế hệ sau giải quyết.",
+                image: "./src/assets/opt2_3_c.png"
             }
         ]
     },
@@ -214,22 +223,25 @@ export const SCENARIOS = [
         id: "3.1",
         title: "3.1: Xung đột Nước - Điện",
         situation: "Hạn hán kéo dài khiến hồ chứa giảm sâu. Nông dân hạ lưu kêu cứu vì ruộng chết khô, nhưng nếu xả nước cứu lúa thì thủy điện không còn áp lực phát điện.",
-        image: "./src/assets/sit3_2.png",
+        image: "./src/assets/sit3_1.png",
         options: [
             {
                 text: "A. Ưu tiên công nghiệp: Giữ nước lại để phát điện, bảo đảm không mất điện thành phố, chấp nhận nông nghiệp chịu thiệt hại.",
                 effects: { budget: 10, satisfaction: -20, stability: 15 },
-                feedback: "Các nhà máy ở thành phố vẫn chạy tốt, nhưng nông dân mất trắng vụ mùa. Đảm bảo điện đã đổi bằng mồ hôi và nước mắt hạ lưu."
+                feedback: "Các nhà máy ở thành phố vẫn chạy tốt, nhưng nông dân mất trắng vụ mùa. Đảm bảo điện đã đổi bằng mồ hôi và nước mắt hạ lưu.",
+                image: "./src/assets/opt3_1_a.png"
             },
             {
                 text: "B. Ưu tiên nông dân: Mở cửa xả nước cứu lúa cho bà con, chấp nhận thiếu điện và tốn tiền chạy nhiệt điện dầu bù đắp.",
                 effects: { budget: -15, satisfaction: 25, stability: -15 },
-                feedback: "Ruộng đồng được cứu sống! Nông dân biết ơn bạn, nhưng nguy cơ mất điện tăng cao và chi phí chạy điện dầu đang đốt sạch ngân sách."
+                feedback: "Ruộng đồng được cứu sống! Nông dân biết ơn bạn, nhưng nguy cơ mất điện tăng cao và chi phí chạy điện dầu đang đốt sạch ngân sách.",
+                image: "./src/assets/opt3_1_b.png"
             },
             {
                 text: "C. Điều tiết chia đôi: Cấp nước theo khung giờ nghiêm ngặt, cả nông dân và nhà máy điện đều phải cắt giảm 50% nhu cầu.",
                 effects: { budget: -5, satisfaction: -5, stability: 5 },
-                feedback: "Không ai thực sự vui vẻ, lúa vẫn héo một nửa và điện vẫn chập chờn. Nhưng đây là cách sinh tồn duy nhất khi thiên nhiên nổi giận."
+                feedback: "Không ai thực sự vui vẻ, lúa vẫn héo một nửa và điện vẫn chập chờn. Nhưng đây là cách sinh tồn duy nhất khi thiên nhiên nổi giận.",
+                image: "./src/assets/opt3_1_c.png"
             }
         ]
     },
@@ -237,22 +249,25 @@ export const SCENARIOS = [
         id: "3.2",
         title: "3.2: Hạ tầng rệu rã",
         situation: "Hệ thống đường ống nước sạch đô thị bị xuống cấp, tỷ lệ rò rỉ lên tới 30%. Ngân sách công không còn tiền sửa.",
-        image: "./src/assets/sit4_1.png",
+        image: "./src/assets/sit3_2.png",
         options: [
             {
                 text: "A. Tư nhân hóa: Bán một phần cổ phần mạng lưới nước cho tập đoàn tư nhân để họ tự bỏ vốn nâng cấp, đổi lại họ được tăng giá nước gấp đôi.",
                 effects: { budget: 20, satisfaction: -20, stability: 15 },
-                feedback: "Đường ống được thay mới cáu cạnh, nước chảy mạnh. Nhưng mỗi khi cầm hóa đơn tiền nước, người dân lại nghiến răng tức giận."
+                feedback: "Đường ống được thay mới cáu cạnh, nước chảy mạnh. Nhưng mỗi khi cầm hóa đơn tiền nước, người dân lại nghiến răng tức giận.",
+                image: "./src/assets/opt3_2_a.png"
             },
             {
                 text: "B. Giữ nguyên hiện trạng: Kiên quyết giữ sở hữu nhà nước, sửa chữa nhỏ giọt bằng vốn công, chấp nhận người dân thỉnh thoảng bị mất nước.",
                 effects: { budget: -15, satisfaction: 5, stability: -10 },
-                feedback: "Giá nước vẫn rẻ, nhưng tình trạng vỡ ống nước xảy ra như cơm bữa. Nước thất thoát ra lòng đất mỗi ngày cắn mòn tài sản quốc gia."
+                feedback: "Giá nước vẫn rẻ, nhưng tình trạng vỡ ống nước xảy ra như cơm bữa. Nước thất thoát ra lòng đất mỗi ngày cắn mòn tài sản quốc gia.",
+                image: "./src/assets/opt3_2_b.png"
             },
             {
                 text: "C. Thu phí bảo trì: Thêm một khoản 'phí hạ tầng nước' vào hóa đơn hằng tháng để lấy tiền sửa ống nước ngay.",
                 effects: { budget: 5, satisfaction: -15, stability: 15 },
-                feedback: "Giải pháp trực diện và hiệu quả về mặt hạ tầng, nhưng người dân cảm thấy họ đang phải gánh thêm một loại thuế vô lý."
+                feedback: "Giải pháp trực diện và hiệu quả về mặt hạ tầng, nhưng người dân cảm thấy họ đang phải gánh thêm một loại thuế vô lý.",
+                image: "./src/assets/opt3_2_c.png"
             }
         ]
     },
@@ -260,22 +275,25 @@ export const SCENARIOS = [
         id: "3.3",
         title: "3.3: Ô nhiễm đầu nguồn",
         situation: "Một sự cố xả thải hóa học từ nhà máy tư nhân xảy ra gần nguồn sông cung cấp nước sạch cho toàn thành phố.",
-        image: "./src/assets/sit1_1.png",
+        image: "./src/assets/sit3_3.png",
         options: [
             {
                 text: "A. An toàn tuyệt đối: Đóng cửa nhà máy nước sạch ngay lập tức để sục rửa, chấp nhận cắt nước toàn thành phố trong 3 ngày.",
                 effects: { budget: -10, satisfaction: -25, stability: 20 },
-                feedback: "Hệ thống nước được bảo vệ an toàn khỏi chất độc, nhưng cảnh hàng triệu người tranh giành từng xô nước cứu trợ thực sự là một cơn ác mộng."
+                feedback: "Hệ thống nước được bảo vệ an toàn khỏi chất độc, nhưng cảnh hàng triệu người tranh giành từng xô nước cứu trợ thực sự là một cơn ác mộng.",
+                image: "./src/assets/opt3_3_a.png"
             },
             {
                 text: "B. Xử lý cầm chừng: Không cắt nước diện rộng, tăng hàm lượng clo khử trùng và khuyến cáo người dân chỉ dùng tắm giặt, không ăn uống.",
                 effects: { budget: 0, satisfaction: -15, stability: -10 },
-                feedback: "Nước vẫn chảy từ vòi, nhưng bốc mùi hóa chất nồng nặc. Lòng tin của người dân vào hệ thống an toàn quốc gia bị rạn nứt."
+                feedback: "Nước vẫn chảy từ vòi, nhưng bốc mùi hóa chất nồng nặc. Lòng tin của người dân vào hệ thống an toàn quốc gia bị rạn nứt.",
+                image: "./src/assets/opt3_3_b.png"
             },
             {
                 text: "C. Ứng phó khẩn cấp: Huy động lực lượng công ích và chuyên gia xử lý hóa chất trực tiếp tại dòng sông với chi phí khổng lồ từ ngân sách.",
                 effects: { budget: -25, satisfaction: 15, stability: 10 },
-                feedback: "Bạn đã cứu được nguồn nước và giữ nguyên sinh hoạt cho người dân, nhưng số tiền bỏ ra tương đương ngân sách xây cả chục trường học."
+                feedback: "Bạn đã cứu được nguồn nước và giữ nguyên sinh hoạt cho người dân, nhưng số tiền bỏ ra tương đương ngân sách xây cả chục trường học.",
+                image: "./src/assets/opt3_3_c.png"
             }
         ]
     },

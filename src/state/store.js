@@ -44,6 +44,11 @@ export function createGameStore() {
       this.reset();
     },
 
+    goHome() {
+      this.gameStarted = false;
+      this.reset();
+    },
+
     startGame(name, role) {
       if (!name.trim()) return;
       this.playerName = name.trim();
