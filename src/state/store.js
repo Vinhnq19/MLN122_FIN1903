@@ -24,7 +24,9 @@ export function createGameStore() {
     showLeaderboard: false,
 
     get displayEnding() {
-      return this.viewingHistory ? this.lastEnding : this.ending;
+      const e = this.viewingHistory ? this.lastEnding : this.ending;
+      // Fallback để tránh crash khi chưa có ending
+      return e || { rank: 0, title: '', description: '', reason: '' };
     },
 
     get displayHistory() {
@@ -176,6 +178,13 @@ export function createGameStore() {
       for (let ending of possibleEndings) {
         if (ending.condition(this)) {
           this.ending = ending;
+          // Lưu kết quả lên Firebase (giống triggerEnding)
+          saveToLeaderboard({
+            playerName: this.playerName,
+            role: this.role,
+            rank: this.ending.rank,
+            title: this.ending.title
+          });
           return;
         }
       }

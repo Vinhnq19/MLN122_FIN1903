@@ -10,7 +10,7 @@
     <script type="module" src="./src/main.js"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col justify-between transition-colors duration-500 relative" 
-      :class="{ 'heartbeat-red': $store.game.gameStarted && $store.game.satisfaction < 30 && !$store.game.gameOver && !$store.game.viewingHistory && !$store.game.reviewMode }" 
+      :class="{ 'heartbeat-red': $store.game.gameStarted && ($store.game.satisfaction < 30 || $store.game.budget < 30 || $store.game.stability < 30) && !$store.game.gameOver && !$store.game.viewingHistory && !$store.game.reviewMode }" 
       x-data="gameData">
     <!-- Background overlay -->
     <div class="fixed inset-0 z-0 opacity-20 pointer-events-none" style="background-image: url('./src/assets/bg_main.png'); background-size: cover; background-position: center;"></div>
@@ -47,12 +47,7 @@
                         Nhậm Chức Nhiệm Kỳ
                     </button>
                     
-                    <template x-if="$store.game.lastEnding">
-                        <button @click="$store.game.viewLastResult()"
-                            class="w-full bg-gray-800 hover:bg-gray-700 text-gray-300 font-bold uppercase tracking-wider px-6 py-3.5 rounded-xl transition-all mt-4 active:scale-95 border border-gray-600 shadow-md">
-                            Xem Lại Báo Cáo Nhiệm Kỳ Trước
-                        </button>
-                    </template>
+
                     <button @click="$store.game.showLeaderboard = true"
                         class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold uppercase tracking-wider px-6 py-3.5 rounded-xl transition-all mt-4 active:scale-95 border border-blue-400 shadow-[0_0_15px_rgba(59,130,246,0.5)]">
                         🏆 Bảng Xếp Hạng Lớp Học
@@ -115,8 +110,7 @@
                                 :class="{
                                     'swipe-left': swipeDirection === 'left',
                                     'swipe-right': swipeDirection === 'right',
-                                    'card-enter': swipeDirection === 'enter',
-                                    'screen-flicker': $store.game.stability < 30 && !$store.game.reviewMode
+                                    'card-enter': swipeDirection === 'enter'
                                  }">
                                 <div class="w-full aspect-square md:aspect-auto md:h-80 lg:h-[500px] relative">
                                     <img :src="currentScenario.image" alt="Scenario Image" class="absolute inset-0 w-full h-full object-cover">

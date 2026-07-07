@@ -303,22 +303,25 @@ export const SCENARIOS = [
         id: "4.1",
         title: "4.1: Sức ép Net Zero",
         situation: "Theo cam kết giảm phát thải quốc tế, các tổ chức tài chính ngừng cấp vốn cho 3 dự án nhiệt điện than đang xây dựng dở dang của nước ta.",
-        image: "./src/assets/sit1_2.png",
+        image: "./src/assets/sit4_1.png",
         options: [
             {
                 text: "A. Tuân thủ quốc tế: Hủy bỏ hoàn toàn các dự án điện than này, chấp nhận mất trắng số tiền hàng tỷ USD đã đổ vào móng công trình.",
                 effects: { budget: -25, satisfaction: 15, stability: -15 },
-                feedback: "Quốc tế khen ngợi Việt Nam vì cam kết môi trường, nhưng việc đập bỏ hàng tỷ USD đầu tư khiến nguồn điện trong nước bị thiếu hụt nghiêm trọng."
+                feedback: "Quốc tế khen ngợi Việt Nam vì cam kết môi trường, nhưng việc đập bỏ hàng tỷ USD đầu tư khiến nguồn điện trong nước bị thiếu hụt nghiêm trọng.",
+                image: "./src/assets/opt4_1_a.png"
             },
             {
                 text: "B. Cố đấm ăn xôi: Tự bỏ tiền ngân sách hoặc vay nợ lãi suất cao từ nguồn khác để xây tiếp, vì nước ta đang rất cần nguồn điện ổn định này.",
                 effects: { budget: -20, satisfaction: -5, stability: 25 },
-                feedback: "Nhà máy vẫn được xây lên, cung cấp nguồn điện nền cực kỳ ổn định. Tuy nhiên, vết nhơ môi trường và cục nợ khổng lồ sẽ đeo bám quốc gia."
+                feedback: "Nhà máy vẫn được xây lên, cung cấp nguồn điện nền cực kỳ ổn định. Tuy nhiên, vết nhơ môi trường và cục nợ khổng lồ sẽ đeo bám quốc gia.",
+                image: "./src/assets/opt4_1_b.png"
             },
             {
                 text: "C. Hợp tác PPP: Kêu gọi các tập đoàn tư nhân trong nước bỏ tiền mua lại và hoàn thiện nhà máy, Nhà nước cam kết mua lại điện.",
                 effects: { budget: 10, satisfaction: -10, stability: 10 },
-                feedback: "Dự án được giải cứu mà không tốn thêm tiền công, nhưng bạn đã trao cho tư nhân quyền định giá đối với nguồn điện chủ lực."
+                feedback: "Dự án được giải cứu mà không tốn thêm tiền công, nhưng bạn đã trao cho tư nhân quyền định giá đối với nguồn điện chủ lực.",
+                image: "./src/assets/opt4_1_c.png"
             }
         ]
     },
@@ -326,22 +329,25 @@ export const SCENARIOS = [
         id: "4.2",
         title: "4.2: Hàng rào Thuế Carbon",
         situation: "Do tiếp tục dùng điện than, phương Tây áp đặt 'Thuế carbon' rất nặng lên hàng hóa xuất khẩu Việt Nam, doanh nghiệp điêu đứng.",
-        image: "./src/assets/sit1_3.png",
+        image: "./src/assets/sit4_2.png",
         options: [
             {
                 text: "A. Hỗ trợ doanh nghiệp: Trích ngân sách quốc gia để cấp bù, hỗ trợ thuế cho các doanh nghiệp xuất khẩu vượt qua giai đoạn khó khăn.",
                 effects: { budget: -20, satisfaction: 15, stability: 0 },
-                feedback: "Doanh nghiệp thở phào nhẹ nhõm vì có chính phủ đứng ra đỡ đạn, nhưng túi tiền của Nhà nước đang vơi đi với tốc độ chóng mặt."
+                feedback: "Doanh nghiệp thở phào nhẹ nhõm vì có chính phủ đứng ra đỡ đạn, nhưng túi tiền của Nhà nước đang vơi đi với tốc độ chóng mặt.",
+                image: "./src/assets/opt4_2_a.png"
             },
             {
                 text: "B. Tự lực cánh sinh: Bắt buộc doanh nghiệp tự chuyển đổi công nghệ hoặc tự chịu thuế, Nhà nước không dùng tiền công để cứu trợ tư nhân.",
                 effects: { budget: 15, satisfaction: -15, stability: 5 },
-                feedback: "Nhà nước bảo toàn được ngân sách, nhưng hàng loạt doanh nghiệp phá sản vì không chịu nổi nhiệt, kéo theo tỷ lệ thất nghiệp tăng vọt."
+                feedback: "Nhà nước bảo toàn được ngân sách, nhưng hàng loạt doanh nghiệp phá sản vì không chịu nổi nhiệt, kéo theo tỷ lệ thất nghiệp tăng vọt.",
+                image: "./src/assets/opt4_2_b.png"
             },
             {
                 text: "C. Thu thuế nội địa: Đánh thuế môi trường thật nặng vào chính các nhà máy điện than trong nước để lấy tiền trợ cấp cho doanh nghiệp xanh.",
                 effects: { budget: 5, satisfaction: -10, stability: -5 },
-                feedback: "Một vòng lặp oái oăm: Đánh thuế điện than làm giá điện trong nước tăng cao, gây khó khăn ngược lại cho toàn bộ nền kinh tế."
+                feedback: "Một vòng lặp oái oăm: Đánh thuế điện than làm giá điện trong nước tăng cao, gây khó khăn ngược lại cho toàn bộ nền kinh tế.",
+                image: "./src/assets/opt4_2_c.png"
             }
         ]
     },
@@ -349,22 +355,25 @@ export const SCENARIOS = [
         id: "4.3",
         title: "4.3: Canh bạc LNG",
         situation: "Để thay thế than, Nhà nước chuyển sang điện khí LNG. Tuy nhiên, nhiên liệu phải nhập khẩu 100% và giá khí thế giới đang biến động thất thường.",
-        image: "./src/assets/sit2_2.png",
+        image: "./src/assets/sit4_3.png",
         options: [
             {
                 text: "A. Mua bảo hiểm giá: Ký hợp đồng mua khí dài hạn với giá cao cố định từ đối tác ngoại để đảm bảo hệ thống luôn có nhiên liệu.",
                 effects: { budget: -15, satisfaction: 0, stability: 20 },
-                feedback: "Hệ thống điện chạy êm ru không bao giờ sợ thiếu nhiên liệu, nhưng bạn đã tự trói mình vào một bản hợp đồng đắt đỏ trong chục năm."
+                feedback: "Hệ thống điện chạy êm ru không bao giờ sợ thiếu nhiên liệu, nhưng bạn đã tự trói mình vào một bản hợp đồng đắt đỏ trong chục năm.",
+                image: "./src/assets/opt4_3_a.png"
             },
             {
                 text: "B. Lướt sóng thị trường: Mua sỉ theo giá thị trường tự do hằng tháng, chấp nhận rủi ro giá có thể tăng vọt nếu có xung đột.",
                 effects: { budget: 10, satisfaction: 0, stability: -15 },
-                feedback: "Nhờ giá khí đang rẻ, bạn tiết kiệm được bộn tiền. Nhưng nếu ngày mai có biến động địa chính trị, lưới điện sẽ lập tức tê liệt."
+                feedback: "Nhờ giá khí đang rẻ, bạn tiết kiệm được bộn tiền. Nhưng nếu ngày mai có biến động địa chính trị, lưới điện sẽ lập tức tê liệt.",
+                image: "./src/assets/opt4_3_b.png"
             },
             {
                 text: "C. Tái khai thác nội địa: Giảm bớt tỷ trọng điện khí, quay lại tận dụng tối đa nguồn than đá và thủy điện có sẵn trong nước.",
                 effects: { budget: 15, satisfaction: -15, stability: 5 },
-                feedback: "Tự chủ được năng lượng và giữ chặt ngân khố, nhưng khói bụi từ nhiệt điện than khiến bầu trời thành phố mù mịt trở lại."
+                feedback: "Tự chủ được năng lượng và giữ chặt ngân khố, nhưng khói bụi từ nhiệt điện than khiến bầu trời thành phố mù mịt trở lại.",
+                image: "./src/assets/opt4_3_c.png"
             }
         ]
     },
@@ -374,22 +383,25 @@ export const SCENARIOS = [
         id: "5.1",
         title: "5.1: Tách điều độ quốc gia",
         situation: "Để minh bạch, quốc tế yêu cầu phải tách Trung tâm điều độ hệ thống điện (A0) khỏi tập đoàn độc quyền để chuyển về Bộ quản lý.",
-        image: "./src/assets/sit3_1.png",
+        image: "./src/assets/sit5_1.png",
         options: [
             {
                 text: "A. Đồng ý tách bạch: Chuyển hoàn toàn về Bộ. Tư nhân yên tâm đầu tư, nhưng bộ máy hành chính mới vận hành lúng túng gây trễ nải.",
                 effects: { budget: -5, satisfaction: 15, stability: -15 },
-                feedback: "Thị trường minh bạch hơn, khối tư nhân hoan hỉ. Nhưng kỹ năng điều hành của đội ngũ hành chính mới khiến hệ thống điện nhiều phen thót tim."
+                feedback: "Thị trường minh bạch hơn, khối tư nhân hoan hỉ. Nhưng kỹ năng điều hành của đội ngũ hành chính mới khiến hệ thống điện nhiều phen thót tim.",
+                image: "./src/assets/opt5_1_a.png"
             },
             {
                 text: "B. Kiên quyết giữ lại: Giữ nguyên A0 trong tập đoàn để đảm bảo mệnh lệnh chỉ huy tối cao, điều phối cắt điện khẩn cấp nhanh nhất.",
                 effects: { budget: 10, satisfaction: -10, stability: 15 },
-                feedback: "An ninh điều độ được giữ vững tuyệt đối như một pháo đài. Tuy nhiên, tư nhân tố cáo tập đoàn vừa đá bóng vừa thổi còi."
+                feedback: "An ninh điều độ được giữ vững tuyệt đối như một pháo đài. Tuy nhiên, tư nhân tố cáo tập đoàn vừa đá bóng vừa thổi còi.",
+                image: "./src/assets/opt5_1_b.png"
             },
             {
                 text: "C. Mô hình nửa vời: Thành lập công ty độc lập nhưng vốn 100% vẫn thuộc tập đoàn quản lý nhằm đối phó với sức ép minh bạch.",
                 effects: { budget: 5, satisfaction: 5, stability: 0 },
-                feedback: "Một thủ thuật che mắt tài tình. Tuy không thực sự minh bạch, nhưng bạn đã xoa dịu được dư luận mà không làm mất kiểm soát."
+                feedback: "Một thủ thuật che mắt tài tình. Tuy không thực sự minh bạch, nhưng bạn đã xoa dịu được dư luận mà không làm mất kiểm soát.",
+                image: "./src/assets/opt5_1_c.png"
             }
         ]
     },
@@ -397,22 +409,25 @@ export const SCENARIOS = [
         id: "5.2",
         title: "5.2: Tối hậu thư thâu tóm",
         situation: "Quỹ đầu tư quốc tế ngỏ ý bỏ tiền xóa sạch toàn bộ nợ cho ngành điện, đổi lại họ muốn quyền vận hành đường dây 500kV trong 20 năm.",
-        image: "./src/assets/sit3_2.png",
+        image: "./src/assets/sit5_2.png",
         options: [
             {
                 text: "A. Bán mạch máu quốc gia: Chấp nhận giao lưới điện. Ngành điện sạch nợ, nhưng mất hoàn toàn công cụ điều tiết an ninh độc quyền.",
                 effects: { budget: 35, satisfaction: 0, stability: -30 },
-                feedback: "Túi tiền quốc gia rủng rỉnh chưa từng thấy! Nhưng từ ngày mai, nguồn sáng của đất nước sẽ bị quyết định bởi một bảng điện tử ở phố Wall."
+                feedback: "Túi tiền quốc gia rủng rỉnh chưa từng thấy! Nhưng từ ngày mai, nguồn sáng của đất nước sẽ bị quyết định bởi một bảng điện tử ở phố Wall.",
+                image: "./src/assets/opt5_2_a.png"
             },
             {
                 text: "B. Giữ vững chủ quyền: Từ chối thẳng thừng. Lưới điện là an ninh quốc gia tối cao, Nhà nước phải độc quyền nắm giữ, chấp nhận gánh nợ.",
                 effects: { budget: -15, satisfaction: 10, stability: 20 },
-                feedback: "Bạn đã bảo vệ thành công mạch máu của đất nước. Cái giá phải trả là sự khắc khổ tài chính sẽ còn kéo dài nhiều thế hệ."
+                feedback: "Bạn đã bảo vệ thành công mạch máu của đất nước. Cái giá phải trả là sự khắc khổ tài chính sẽ còn kéo dài nhiều thế hệ.",
+                image: "./src/assets/opt5_2_b.png"
             },
             {
                 text: "C. Tư nhân hóa nhánh nhỏ: Chỉ cho phép tư nhân đấu thầu vận hành các đường nhánh nhỏ địa phương, kiên quyết giữ trục xương sống 500kV.",
                 effects: { budget: 10, satisfaction: 5, stability: 5 },
-                feedback: "Bạn vừa thu hút được một phần vốn ngoại, vừa giữ được thanh kiếm bảo vệ an ninh năng lượng trong tay Nhà nước."
+                feedback: "Bạn vừa thu hút được một phần vốn ngoại, vừa giữ được thanh kiếm bảo vệ an ninh năng lượng trong tay Nhà nước.",
+                image: "./src/assets/opt5_2_c.png"
             }
         ]
     },
@@ -420,22 +435,25 @@ export const SCENARIOS = [
         id: "5.3",
         title: "5.3: Giá điện hai thành phần",
         situation: "Nhiệm kỳ sắp kết thúc, bạn phải chốt cơ chế giá điện mới: Thu phí cố định (tiền hạ tầng) + tiền điện thực tế tiêu thụ.",
-        image: "./src/assets/sit4_1.png",
+        image: "./src/assets/sit5_3.png",
         options: [
             {
                 text: "A. Áp dụng triệt để: Ban hành ngay lập tức cho toàn dân nhằm có nguồn thu lớn tái thiết hệ thống, bất chấp người dân kêu ca.",
                 effects: { budget: 25, satisfaction: -25, stability: 10 },
-                feedback: "Ngành điện có một dòng thu nhập khổng lồ, cố định hàng tháng để xây dựng tương lai, mặc cho hàng triệu người tiêu dùng nguyền rủa bạn."
+                feedback: "Ngành điện có một dòng thu nhập khổng lồ, cố định hàng tháng để xây dựng tương lai, mặc cho hàng triệu người tiêu dùng nguyền rủa bạn.",
+                image: "./src/assets/opt5_3_a.png"
             },
             {
                 text: "B. Chỉ ép doanh nghiệp: Chỉ áp dụng cơ chế này đối với các nhà máy sản xuất công nghiệp lớn, miễn trừ hoàn toàn cho hộ gia đình.",
                 effects: { budget: 10, satisfaction: 10, stability: -15 },
-                feedback: "Người dân hoan hô sự công bằng này. Nhưng sức ép tài chính đè nặng lên khối sản xuất khiến kinh tế vĩ mô có dấu hiệu chững lại."
+                feedback: "Người dân hoan hô sự công bằng này. Nhưng sức ép tài chính đè nặng lên khối sản xuất khiến kinh tế vĩ mô có dấu hiệu chững lại.",
+                image: "./src/assets/opt5_3_b.png"
             },
             {
                 text: "C. Hoãn vô thời hạn: Tiếp tục dùng cách tính giá điện lũy tiến bậc thang cũ để tránh gây sốc tâm lý cho xã hội.",
                 effects: { budget: -10, satisfaction: 10, stability: -5 },
-                feedback: "Mọi người thở phào vì hóa đơn không thay đổi. Nhưng việc từ chối cải cách khiến ngành năng lượng tiếp tục lún sâu vào vũng lầy trì trệ."
+                feedback: "Mọi người thở phào vì hóa đơn không thay đổi. Nhưng việc từ chối cải cách khiến ngành năng lượng tiếp tục lún sâu vào vũng lầy trì trệ.",
+                image: "./src/assets/opt5_3_c.png"
             }
         ]
     }
