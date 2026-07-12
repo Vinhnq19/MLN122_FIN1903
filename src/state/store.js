@@ -169,10 +169,9 @@ export function createGameStore() {
     evaluateFinalEnding() {
       this.gameOver = true;
       
-      // Tìm các kết cục không thuộc nhóm chết ngay (1, 2, 3, 4, 5)
-      // Sắp xếp theo rank tăng dần (1 tốt nhất) để ưu tiên
+      // Lọc Hạng 1, 3, 4, 5 để ưu tiên xét trước
       const possibleEndings = ENDINGS
-        .filter(e => ![6, 7, 8].includes(e.rank))
+        .filter(e => ![2, 6, 7, 8].includes(e.rank))
         .sort((a, b) => a.rank - b.rank);
 
       for (let ending of possibleEndings) {
@@ -188,6 +187,15 @@ export function createGameStore() {
           return;
         }
       }
+
+      // Fallback xuống Hạng 2 nếu không khớp các điều kiện trên
+      this.ending = ENDINGS.find(e => e.rank === 2);
+      saveToLeaderboard({
+        playerName: this.playerName,
+        role: this.role,
+        rank: this.ending.rank,
+        title: this.ending.title
+      });
     }
   };
 }

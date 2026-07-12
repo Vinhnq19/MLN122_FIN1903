@@ -44,7 +44,7 @@ export const ENDINGS = [
     {
         rank: 1,
         title: "Hạng 1: Huyền thoại điều tiết",
-        condition: (game) => game.stability >= 60 && game.budget >= 60 && game.satisfaction >= 60,
+        condition: (game) => game.stability >= 55 && game.budget >= 55 && game.satisfaction >= 55,
         description: "Đạt tới trạng thái cân bằng hoàn hảo. Nhà nước giữ vững được huyết mạch truyền tải và an ninh quốc gia, nhưng vẫn khéo léo thu hút hàng tỷ USD vốn tư nhân vào phát triển nguồn điện xanh. Kinh tế tăng trưởng tốt, lòng dân đồng thuận cao.",
         reason: "Tại sao lại có kết cục này: Bạn là một thiên tài điều phối. Bạn biết chính xác khâu nào cần \"bàn tay sắt\" độc quyền của Nhà nước để bảo vệ chủ quyền, và khâu nào nên giải phóng cho \"bàn tay vô hình\" của tư nhân nhảy vào cạnh tranh để tối ưu chi phí. Bạn sử dụng cơ chế thị trường để phục vụ mục tiêu xã hội chứ không để thị trường thao túng xã hội."
     },
